@@ -6,24 +6,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio</title>
 
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles/bootstrap.min.css">
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 	
 	<div class="text-center justify-content-center align-items-center">
-		<header>
-			{% include header.html %}
-		</header>
-		
-			{{ content }}
-
-		<footer>
-			{% include footer.html %}
-		</footer>
+		<div id="start">
+			<button id="active">
+				<h1 id="myname"><span class="p1">Pontus</span> <span class="p2">Granath</span></h1>
+			</button>
+		</div>
+		<div>
+			{% include content.html %}
+		</div>
 	</div>
 
+	<script src="https://kit.fontawesome.com/ee2129c6a0.js" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="scripts/main.js"></script>
 	<script src="scripts/bootstrap.min.js"></script>
 </body>
 </html>
