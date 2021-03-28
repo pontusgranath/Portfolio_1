@@ -11,15 +11,29 @@
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	
-	<div class="text-center justify-content-center align-items-center">
-		<div id="start">
-			<button id="active">
-				<h1 id="myname"><span class="p1">Pontus</span> <span class="p2">Granath</span></h1>
-			</button>
+
+	<div class="container-fluid text-center">
+		<div class="my-3" id="myname">
+			<h1>Pontus Granath</h1>
 		</div>
 		<div>
-			{% include content.html %}
+			<div class="row">
+				<div class="col" id="about">
+					<a href="#">
+						<p>About</p>
+					</a>
+				</div>
+				<div class="col" id="projects">
+					<button>
+						<p>Projects</p>
+					</button>
+				</div>
+				<div class="col" id="contact">
+					<a href="#">
+						<p>Contact</p>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 

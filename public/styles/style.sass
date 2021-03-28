@@ -4,37 +4,18 @@
 body
     padding: 0
     margin: 0
+    background-color: #17181a
+    color: white
+    
+.row
+    height: 52rem
     background-color: rgba(36, 37, 42, 1)
 
-#active
-    transition: 1.5s
-    margin-top: 20%
-    border: none
-    background: none
+.col
 
-    &.activated
-        transition: 1.5s
-        margin-top: 3%
-        border-bottom: 2px solid orange
-        padding: 0px 150px 0px
-
-#myname
-    transition: 0.5s
-    font-size: 40px
+    &#projects
+        border-left: 2px solid black
+        border-right: 2px solid black
 
     &:hover
-        transition: 0.5s
-        font-size: 35px
-
-.p1
-    color: white
-
-.p2
-    color: orange
-
-.test
-    opacity: 0%
-.test.show
-    transition: 0.5s
-    color: white
-    opacity: 100%
+        background-color: orange
