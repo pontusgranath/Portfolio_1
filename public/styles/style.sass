@@ -4,27 +4,41 @@
 body
     padding: 0
     margin: 0
-    background-color: #17181a
-    color: white
-    
-.row
     background-color: rgba(36, 37, 42, 1)
+    color: white
 
-.col
+#myname
 
-    &#projects
-        border-left: 2px solid black
-        border-right: 2px solid black
-
-    &:hover
-        background-color: orange
-
-button
-    background: none
-    border: 2px solid black
+    h1
+        margin-top: 15%
+        margin-bottom: 0 !important
 
     p
+        color: orange
+
+#menu
+
+    button
+        margin: 1.5rem 0
+        padding: 0.5rem 0
+        transition: 0.5s
+        width: 100%
+        color: white
+        background: none
+        border: none
+
+        &:hover
+            transition: 1s
+            background-color: orange
+
+#footer
+    div
+        display: inline-block
+        padding: 0 2rem
+
+    i
         color: white
 
-    &:hover
-        background: red
+        &:hover
+            transform: scale(1.5)
+            color: orange
