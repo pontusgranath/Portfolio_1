@@ -3,3 +3,31 @@ layout: default
 title: About
 ---
 {% include navbar.html %}
+
+<div class="container text-center">
+    <section id="header">
+        <div class="mt-3">
+            <h1>About</h1>
+        </div>
+    </section>
+    <section class="mt-5" id="introduction">
+        <h2 class="head">Who am I?</h2>
+        <div class="mt-3">
+            <p>My name is <span>Pontus Granath</span>. I am currently taking my 4:th year at NTI-Gymnasiet in Uppsala, Sweden.</p>
+            <p>I have a lot of experience with <span>Webdeveloping, webdesigning</span> and <span>programming.</span></p>
+            <p class="mt-3">Want to get in touch? <br>Feel free to contact me!</p>
+            <div id="contact">
+                <a href="mailto:pontusgranath0125@gmail.com">
+                    <i class="fas fa-3x fa-envelope"></i>
+                    <p>pontusgranath0125@gmail.com</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="mt-5">
+            <h2 class="head">Skills</h2>
+            {% include skills.html %}
+        </div>
+    </section>
+</div>
