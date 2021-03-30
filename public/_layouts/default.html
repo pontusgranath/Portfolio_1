@@ -4,63 +4,16 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
+	<title>{{ page.title }} - Pontus Granath</title>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<link rel="stylesheet" href="styles/bootstrap.min.css">
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<div class="justify-content-center">
-		<div class="text-center mt-3" id="myname">
-			<h1>Pontus Granath</h1>
-			<p>- Webdeveloper & programmer -</p>
-		</div>
-		<div class="container">
-			<div class="text-center" id="menu">
-				<div class="col" id="about">
-					<a href="#">
-						<button>
-							<h4>About</h4>
-						</button>
-					</a>
-				</div>
-				<div class="col" id="projects">
-					<a href="#">
-						<button>
-							<h4>Projects</h4>
-						</button>
-					</a>
-				</div>
-				<div class="col" id="contact">
-					<a href="mailto:pontusgranath0125@gmail.com">
-						<button>
-							<h4>Contact</h4>
-						</button>
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="container mt-5" id="footer">
-			<div class="d-flex justify-content-center">
-				<div id="linkedin">
-					<a href="https://www.linkedin.com/in/pontus-granath-5355b11b7/">
-						<i class="fab fa-lg fa-linkedin-in"></i>
-					</a>
-				</div>
-				<div id="github">
-					<a href="https://github.com/pontusgranath">
-						<i class="fab fa-lg fa-github"></i>
-					</a>
-				</div>
-				<div id="email">
-					<a href="mailto:pontusgranath0125@gmail.com">
-						<i class="fas fa-lg fa-envelope"></i>
-					</a>
-				</div>
-			</div>
-			
-		</div>
+	
+	<div>
+		{{ content }}
 	</div>
 
 	<script src="https://kit.fontawesome.com/ee2129c6a0.js" crossorigin="anonymous"></script>
